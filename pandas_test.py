@@ -1,6 +1,7 @@
 import pandas as pd
 
-def main():
+def main(event, lambda_context):
+    print(event, lambda_context)
     current = [
         {'Id': 20562, 'UserName': 'axr230', 'Email': 'ana.rodriguez@tdxgroup.com'},
         {'Id': 20986, 'UserName': 'axr231', 'Email': 'arun.raju@equifax.com'}
